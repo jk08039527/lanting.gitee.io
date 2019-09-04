@@ -1,515 +1,633 @@
 <!DOCTYPE html>
 <!-- saved from url=(0025)http://www.wingsever.com/ -->
-<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
-<title>兰亭闲鱼监控助手 专业二手商品监控辅助工具</title>
-<meta name="description" content="兰亭闲鱼监控助手是一款很好用的二手商品实时监控辅助工具，支持闲鱼搜索、监控上新宝贝、秒拍抢拍等各项功能，抢拍快人一步！">
-<meta name="keywords" content="闲鱼监控,捡漏,二手抢拍,秒拍助手,闲鱼辅助">
-<link rel="shortcut icon" href="http://www.wingsever.com/wp-content/themes/begin5.2/img/favicon.ico">
-<link rel="apple-touch-icon" sizes="114x114" href="http://www.wingsever.com/wp-content/themes/begin5.2/img/favicon.png">
-<link rel="profile" href="https://gmpg.org/xfn/11">
-<link rel="pingback" href="http://www.wingsever.com/xmlrpc.php">
-<!--[if lt IE 9]>
-<script src="http://www.wingsever.com/wp-content/themes/begin5.2/js/html5.js"></script>
-<script src="http://www.wingsever.com/wp-content/themes/begin5.2/js/css3-mediaqueries.js"></script>
-<![endif]-->
-<link rel="stylesheet" id="begin-style-css" href="lanting/style.css" type="text/css" media="all">
-<link rel="stylesheet" id="fonts-css" href="lanting/fonts.css" type="text/css" media="all">
-<link rel="stylesheet" id="iconfontd-css" href="lanting/font_961891_053fg6ty9r17.css" type="text/css" media="all">
-<script type="text/javascript" async="" src="lanting/analytics.js"></script><script type="text/javascript" src="lanting/jquery.min.js"></script>
-<meta name="robots" content="index,follow">
-<link rel="canonical" href="http://www.wingsever.com/">
-<style>.mobile-login{display:none}
-.deanm .deanmove{
-background:none;
-border:0px solid #ddd; 
-}
-.de-t {display: none; }
-.de-button {display: none; }
-.header-sub h1{display: none;}
-.header-title {
-    display: none; 
-}
-.comment-form-url {
-    display: none;
-}
-
-#fontsize{display: none;}
-.single-meta .print, .begin-single-meta .print {
-    display: none;
-}
-
-#site-nav .down-menu li a {
-    font-size: 1.6rem;
-}
-
-#masthead {
-    height: 90px;
-}
-#top-header {
-    display: none;
-}
-@media only screen and (max-width: 900px) {
-    #masthead {
-        height: 40px;
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <title>兰亭闲鱼监控助手 专业二手商品监控辅助工具</title>
+    <meta name="description" content="兰亭闲鱼监控助手是一款很好用的二手商品实时监控辅助工具，支持闲鱼搜索、监控上新宝贝、秒拍抢拍等各项功能，抢拍快人一步！">
+    <meta name="keywords" content="闲鱼监控,捡漏,二手抢拍,秒拍助手,闲鱼辅助">
+    <link rel="shortcut icon" href="http://www.wingsever.com/wp-content/themes/begin5.2/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="114x114"
+          href="http://www.wingsever.com/wp-content/themes/begin5.2/img/favicon.png">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://www.wingsever.com/xmlrpc.php">
+    <!--[if lt IE 9]>
+    <script src="http://www.wingsever.com/wp-content/themes/begin5.2/js/html5.js"></script>
+    <script src="http://www.wingsever.com/wp-content/themes/begin5.2/js/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" id="begin-style-css" href="lanting/style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="fonts-css" href="lanting/fonts.css" type="text/css" media="all">
+    <link rel="stylesheet" id="iconfontd-css" href="lanting/font_961891_053fg6ty9r17.css" type="text/css" media="all">
+    <script type="text/javascript" async="" src="lanting/analytics.js"></script>
+    <script type="text/javascript" src="lanting/jquery.min.js"></script>
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="http://www.wingsever.com/">
+    <style>.mobile-login {
+        display: none
     }
-}</style>
-<script async="" src="lanting/js" type="text/javascript"></script>
-<script type="text/javascript">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-139189337-1');
-</script><style>.theiaStickySidebar:after {content: ""; display: table; clear: both;}</style></head>
+    .deanm .deanmove {
+        background: none;
+        border: 0px solid #ddd;
+    }
+
+    .de-t {
+        display: none;
+    }
+
+    .de-button {
+        display: none;
+    }
+
+    .header-sub h1 {
+        display: none;
+    }
+
+    .header-title {
+        display: none;
+    }
+
+    .comment-form-url {
+        display: none;
+    }
+
+    #fontsize {
+        display: none;
+    }
+
+    .single-meta .print, .begin-single-meta .print {
+        display: none;
+    }
+
+    #site-nav .down-menu li a {
+        font-size: 1.6rem;
+    }
+
+    #masthead {
+        height: 90px;
+    }
+
+    #top-header {
+        display: none;
+    }
+
+    @media only screen and (max-width: 900px) {
+        #masthead {
+            height: 40px;
+        }
+    }</style>
+    <script async="" src="lanting/js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-139189337-1');
+    </script>
+    <style>.theiaStickySidebar:after {
+        content: "";
+        display: table;
+        clear: both;
+    }</style>
+</head>
 <body class="home blog" style="">
 <div id="page" class="hfeed site">
-<header id="masthead" class="site-header">
-<div id="header-main" class="header-main sliding headroom--top headroom--bottom">
-<nav id="top-header">
-<div class="top-nav">
-<div class="menu-%e7%a7%bb%e5%8a%a8%e9%a1%b6%e9%83%a8-container"><ul id="menu-%e7%a7%bb%e5%8a%a8%e9%a1%b6%e9%83%a8" class="top-menu"><li id="menu-item-141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141"><a title="兰亭闲鱼监控助手使用指南" href="http://www.wingsever.com/xianyu-jiankong-help.html">使用指南</a></li>
-<li id="menu-item-144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144"><a title="兰亭闲鱼监控-联系方式" href="http://www.wingsever.com/contact_us.html">咨询更多</a></li>
-</ul></div> </div>
-</nav>
-<div id="menu-box">
-<div id="top-menu">
-<span class="nav-search"><i class="zm zm-icondownload"></i> 软件下载</span>
-<span class="mobile-login"><a href="http://www.wingsever.com/#login" id="login-mobile"><i class="be be-timerauto"></i></a></span>
-<div class="logo-site">
-<h1 class="site-title">
-<a href="http://www.wingsever.com/"><img src="lanting/logo.png" title="兰亭闲鱼监控助手 | 专业二手商品监控辅助工具" alt="兰亭闲鱼监控助手 | 专业二手商品监控辅助工具" rel="home"><span class="site-name">兰亭闲鱼监控助手 | 专业二手商品监控辅助工具</span></a>
-</h1>
-</div>
-<div id="site-nav-wrap">
-<div id="sidr-close"><a href="http://www.wingsever.com/#sidr-close" class="toggle-sidr-close">×</a></div>
-<div id="sidr-menu"><div class="toggle-sidr-menu">MENU</div></div>
-<nav id="site-nav" class="main-nav">
-<span class="nav-mobile"><i class="be be-menu"></i></span>
-<div class="menu-%e4%b8%bb%e8%a6%81%e8%8f%9c%e5%8d%95-container"><ul id="menu-%e4%b8%bb%e8%a6%81%e8%8f%9c%e5%8d%95" class="down-menu nav-menu"><li id="menu-item-190" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-190"><a href="http://www.wingsever.com/">首 页</a></li>
-</ul></div> </nav>
-</div>
-<div class="clear"></div>
-</div>
-</div>
-</div>
-</header>
-<div id="search-main">
-<div class="off-search wow fadeInRight animated" data-wow-delay="0.4s"></div>
-<div class="off-search-a"></div>
-<div class="search-wrap">
-<img class="wow fadeInRight animated" data-wow-delay="1s" src="lanting/1560818853-qq2.jpg" title="扫码添加QQ" alt="联系兰亭闲鱼监控">
-<br>
-<div class="wow fadeInRight animated" data-wow-delay="1.5s">
-<h4 style="text-align:center;">
-<span style="font-size:18px;color:#FFFFFF;">QQ：1418169076</span>
-</h4>
-</div>
-<br>
-<br>
-<div class="wow fadeInUp animated" data-wow-delay="1.9s" style="text-align:center;">
-<center>
-<br>
-<h4 style="text-align:center;">
-<span style="font-size:18px;color:#FFFFFF;">软件暂不提供下载，感兴趣可以通过以上方式联系、咨询。</span>
-</h4>
-</center>
-</div>
-</div>
-<div class="off-search-b">
-<div class="clear"></div>
-</div>
-</div> <div id="mobile-nav">
-<div class="menu-%e7%a7%bb%e5%8a%a8%e7%ab%af%e5%ba%95%e9%83%a8-container"><ul id="menu-%e7%a7%bb%e5%8a%a8%e7%ab%af%e5%ba%95%e9%83%a8" class="mobile-menu"><li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a href="http://www.wingsever.com/contact_us.html">咨询购买</a></li>
-<li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="http://www.wingsever.com/xianyu-jiankong-help.html">使用指南</a></li>
-<li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138"><a href="http://www.wingsever.com/bird-xianyu-update.html">更新指南</a></li>
-<li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146"><a href="http://www.wingsever.com/old_revision_and_update.html">历史版本</a></li>
-</ul></div> <div class="clear"></div>
-</div> <nav class="breadcrumb">
-<i class="be be-home"></i>现在位置<i class="be be-arrowright"></i>首页 </nav>
-<div id="content" class="site-content"><style type="text/css">
-body {
-	background: #fff;
-}
+    <header id="masthead" class="site-header">
+        <div id="header-main" class="header-main sliding headroom--top headroom--bottom">
+            <nav id="top-header">
+                <div class="top-nav">
+                    <div class="menu-%e7%a7%bb%e5%8a%a8%e9%a1%b6%e9%83%a8-container">
+                        <ul id="menu-%e7%a7%bb%e5%8a%a8%e9%a1%b6%e9%83%a8" class="top-menu">
+                            <li id="menu-item-141"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141"><a
+                                    title="兰亭闲鱼监控助手使用指南"
+                                    href="http://www.wingsever.com/xianyu-jiankong-help.html">使用指南</a></li>
+                            <li id="menu-item-144"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144"><a
+                                    title="兰亭闲鱼监控-联系方式" href="http://www.wingsever.com/contact_us.html">咨询更多</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="menu-box">
+                <div id="top-menu">
+                    <span class="nav-search"><i class="zm zm-icondownload"></i> 软件下载</span>
+                    <span class="mobile-login"><a href="http://www.wingsever.com/#login" id="login-mobile"><i
+                            class="be be-timerauto"></i></a></span>
+                    <div class="logo-site">
+                        <h1 class="site-title">
+                            <a href="http://www.wingsever.com/"><img src="lanting/logo.png"
+                                                                     title="兰亭闲鱼监控助手 | 专业二手商品监控辅助工具"
+                                                                     alt="兰亭闲鱼监控助手 | 专业二手商品监控辅助工具" rel="home"><span
+                                    class="site-name">兰亭闲鱼监控助手 | 专业二手商品监控辅助工具</span></a>
+                        </h1>
+                    </div>
+                    <div id="site-nav-wrap">
+                        <div id="sidr-close"><a href="http://www.wingsever.com/#sidr-close"
+                                                class="toggle-sidr-close">×</a></div>
+                        <div id="sidr-menu">
+                            <div class="toggle-sidr-menu">MENU</div>
+                        </div>
+                        <nav id="site-nav" class="main-nav">
+                            <span class="nav-mobile"><i class="be be-menu"></i></span>
+                            <div class="menu-%e4%b8%bb%e8%a6%81%e8%8f%9c%e5%8d%95-container">
+                                <ul id="menu-%e4%b8%bb%e8%a6%81%e8%8f%9c%e5%8d%95" class="down-menu nav-menu">
+                                    <li id="menu-item-190"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-190">
+                                        <a href="http://www.wingsever.com/">首 页</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="search-main">
+        <div class="off-search wow fadeInRight animated" data-wow-delay="0.4s"></div>
+        <div class="off-search-a"></div>
+        <div class="search-wrap">
+            <img class="wow fadeInRight animated" data-wow-delay="1s" src="lanting/1560818853-qq2.jpg" title="扫码添加QQ"
+                 alt="联系兰亭闲鱼监控">
+            <br>
+            <div class="wow fadeInRight animated" data-wow-delay="1.5s">
+                <h4 style="text-align:center;">
+                    <span style="font-size:18px;color:#FFFFFF;">QQ：1418169076</span>
+                </h4>
+            </div>
+            <br>
+            <br>
+            <div class="wow fadeInUp animated" data-wow-delay="1.9s" style="text-align:center;">
+                <center>
+                    <br>
+                    <h4 style="text-align:center;">
+                        <span style="font-size:18px;color:#FFFFFF;">软件暂不提供下载，感兴趣可以通过以上方式联系、咨询。</span>
+                    </h4>
+                </center>
+            </div>
+        </div>
+        <div class="off-search-b">
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div id="mobile-nav">
+        <div class="menu-%e7%a7%bb%e5%8a%a8%e7%ab%af%e5%ba%95%e9%83%a8-container">
+            <ul id="menu-%e7%a7%bb%e5%8a%a8%e7%ab%af%e5%ba%95%e9%83%a8" class="mobile-menu">
+                <li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-147"><a
+                        href="http://www.wingsever.com/contact_us.html">咨询购买</a></li>
+                <li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a
+                        href="http://www.wingsever.com/xianyu-jiankong-help.html">使用指南</a></li>
+                <li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138"><a
+                        href="http://www.wingsever.com/bird-xianyu-update.html">更新指南</a></li>
+                <li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146"><a
+                        href="http://www.wingsever.com/old_revision_and_update.html">历史版本</a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <nav class="breadcrumb">
+        <i class="be be-home"></i>现在位置<i class="be be-arrowright"></i>首页
+    </nav>
+    <div id="content" class="site-content">
+        <style type="text/css">
+            body {
+                background: #fff;
+            }
 
-#content {
-	width: 100%;
-	margin: 0 auto;
-}
+            #content {
+                width: 100%;
+                margin: 0 auto;
+            }
 
-#masthead {
-	background: #fff;
-}
+            #masthead {
+                background: #fff;
+            }
 
-#primary {
-	width: 100%;
-	box-shadow: none;
-}
+            #primary {
+                width: 100%;
+                box-shadow: none;
+            }
 
-#primary .page {
-	background: transparent !important;
-	padding: 0 !important;
-	border: none !important;
-	box-shadow: none !important;
-}
+            #primary .page {
+                background: transparent !important;
+                padding: 0 !important;
+                border: none !important;
+                box-shadow: none !important;
+            }
 
-.breadcrumb, .header-sub, .owl-buttons {
-	display: none;
-}
+            .breadcrumb, .header-sub, .owl-buttons {
+                display: none;
+            }
 
-#slideshow {
-	background: #555;
-	margin: -1px auto 0;
-}
+            #slideshow {
+                background: #555;
+                margin: -1px auto 0;
+            }
 
-#menu-box {
-	transition-duration: .0s;
-}
+            #menu-box {
+                transition-duration: .0s;
+            }
 
-.links-box {
-	width: 100%;
-	background: #f1f1f1;
-}
-/** 链接 **/
-#links {
-	width: 1080px;
-	margin: 0 auto;
-	padding: 20px 0;
-}
+            .links-box {
+                width: 100%;
+                background: #f1f1f1;
+            }
 
-.link-f a {
-	box-shadow: none;
-}
+            /** 链接 **/
+            #links {
+                width: 1080px;
+                margin: 0 auto;
+                padding: 20px 0;
+            }
 
-@media screen and (max-width: 1080px) {
-	#links {
-		width: 100%;
-	}
-}
+            .link-f a {
+                box-shadow: none;
+            }
 
-.ad-site {
-	display: none;
-}
+            @media screen and (max-width: 1080px) {
+                #links {
+                    width: 100%;
+                }
+            }
 
-#group-widget-two .add-widgets {
-	text-align: center;
-	padding: 30px;
-	background: #fff;
-}
+            .ad-site {
+                display: none;
+            }
 
-.small-img {
-	position: absolute;
-	max-width: 28%;
-	top: 15%;
-	left: 20%;
-}
+            #group-widget-two .add-widgets {
+                text-align: center;
+                padding: 30px;
+                background: #fff;
+            }
 
-@-webkit-keyframes small-img {
-	16.65% {
-		-webkit-transform: translateY(8px);
-		transform: translateY(8px);
-	}
+            .small-img {
+                position: absolute;
+                max-width: 28%;
+                top: 15%;
+                left: 20%;
+            }
 
-	33.3% {
-		-webkit-transform: translateY(-6px);
-		transform: translateY(-6px);
-	}
+            @-webkit-keyframes small-img {
+                16.65% {
+                    -webkit-transform: translateY(8px);
+                    transform: translateY(8px);
+                }
 
-	49.95% {
-		-webkit-transform: translateY(4px);
-		transform: translateY(4px);
-	}
+                33.3% {
+                    -webkit-transform: translateY(-6px);
+                    transform: translateY(-6px);
+                }
 
-	66.6% {
-		-webkit-transform: translateY(-2px);
-		transform: translateY(-2px);
-	}
+                49.95% {
+                    -webkit-transform: translateY(4px);
+                    transform: translateY(4px);
+                }
 
-	83.25% {
-		-webkit-transform: translateY(1px);
-		transform: translateY(1px);
-	}
+                66.6% {
+                    -webkit-transform: translateY(-2px);
+                    transform: translateY(-2px);
+                }
 
-	100% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-	}
-}
+                83.25% {
+                    -webkit-transform: translateY(1px);
+                    transform: translateY(1px);
+                }
 
-@keyframes small-img {
-	16.65% {
-		-webkit-transform: translateY(8px);
-		transform: translateY(8px);
-	}
+                100% {
+                    -webkit-transform: translateY(0);
+                    transform: translateY(0);
+                }
+            }
 
-	33.3% {
-		-webkit-transform: translateY(-6px);
-		transform: translateY(-6px);
-	}
+            @keyframes small-img {
+                16.65% {
+                    -webkit-transform: translateY(8px);
+                    transform: translateY(8px);
+                }
 
-	49.95% {
-		-webkit-transform: translateY(4px);
-		transform: translateY(4px);
-	}
+                33.3% {
+                    -webkit-transform: translateY(-6px);
+                    transform: translateY(-6px);
+                }
 
-	66.6% {
-		-webkit-transform: translateY(-2px);
-		transform: translateY(-2px);
-	}
+                49.95% {
+                    -webkit-transform: translateY(4px);
+                    transform: translateY(4px);
+                }
 
-	83.25% {
-		-webkit-transform: translateY(1px);
-		transform: translateY(1px);
-	}
+                66.6% {
+                    -webkit-transform: translateY(-2px);
+                    transform: translateY(-2px);
+                }
 
-	100% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-	}
-}
+                83.25% {
+                    -webkit-transform: translateY(1px);
+                    transform: translateY(1px);
+                }
 
-.small-img {
-	display: inline-block;
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
+                100% {
+                    -webkit-transform: translateY(0);
+                    transform: translateY(0);
+                }
+            }
 
-#slideshow:hover .small-img {
-	-webkit-animation-name: small-img;
-	animation-name: small-img;
-	-webkit-animation-duration: 1s;
-	animation-duration: 1s;
-	-webkit-animation-timing-function: ease-in-out;
-	animation-timing-function: ease-in-out;
-	-webkit-animation-iteration-count: 1;
-	animation-iteration-count: 1;
-}
-</style>
-<div class="container">
+            .small-img {
+                display: inline-block;
+                -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+                box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            }
 
-<div class="g-row">
-<div class="home-slider">
-<div id="slideshow">
-<script type="text/javascript">
-			$(document).ready(function(){
-				$("#slider-home").responsiveSlides({
-					auto: true,
-					pager: true,
-					nav: true,
-					speed: 800,
-					timeout: 5000,
-					pause: true,
-					// maxwidth: 3000,
-					namespace: "callbacks"
-				});
-			});
-		</script>
-<ul class="rslides callbacks callbacks1" id="slider-home">
-<li id="callbacks1_s0" class="" style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 800ms ease-in-out 0s;">
-<img src="lanting/ExUxA0.png">
-</li>
-<li id="callbacks1_s1" style="float: left; position: relative; opacity: 1; z-index: 2; display: list-item; transition: opacity 800ms ease-in-out 0s;" class="callbacks1_on">
-<img src="lanting/ExaUC8.png">
-</li>
-</ul><a href="http://www.wingsever.com/#" class="callbacks_nav callbacks1_nav prev"><i class="be be-arrowleft"></i></a><a href="http://www.wingsever.com/#" class="callbacks_nav callbacks1_nav next"><i class="be be-arrowright"></i></a><ul class="callbacks_tabs callbacks1_tabs"><li class="callbacks1_s1"><a href="http://www.wingsever.com/#" class="callbacks1_s1">1</a></li><li class="callbacks1_s2 callbacks_here"><a href="http://www.wingsever.com/#" class="callbacks1_s2">2</a></li></ul>
-</div>
-</div>
-</div>
-<div id="group-section">
+            #slideshow:hover .small-img {
+                -webkit-animation-name: small-img;
+                animation-name: small-img;
+                -webkit-animation-duration: 1s;
+                animation-duration: 1s;
+                -webkit-animation-timing-function: ease-in-out;
+                animation-timing-function: ease-in-out;
+                -webkit-animation-iteration-count: 1;
+                animation-iteration-count: 1;
+            }
+        </style>
+        <div class="container">
 
-<div class="g-row  sort" name="1">
-<div class="g-col">
-<div class="deanm">
-<div class="group-title wow fadeInDown" data-wow-delay="0.3s">
-<h3><i class="be be-skyatlas"></i> 主要功能 <i class="be be-skyatlas"></i></h3>
-<div class="group-des">兰亭咸鱼、双击快速下单、多关键词同步监控。</div>
-<div class="clear"></div>
-</div>
-<div class="deanm-main wow fadeInUp" data-wow-delay="0.3s">
-<div class="deanm deanmove">
-<div class="de-t wow fadeIn" data-wow-delay="0.5s"><a href="http://www.wingsever.com/xianyu-keywords-monitor.html" rel="bookmark">闲鱼关键词监控</a></div> <div class="clear"></div>
-<div class="de-a wow fadeIn" data-wow-delay="0.7s"></div>
-<div class="deanquan">
-<a href="http://www.wingsever.com/" target="_blank">
-<div class="de-back">
-<img src="lanting/ExDAkn.png" alt="闲鱼关键词监控"> <div class="de-b wow fadeIn" data-wow-delay="0.8s">秒级响应</div>
-</div>
-</a>
-</div>
-<div class="de-c wow fadeIn" data-wow-delay="0.9s"></div>
-<div class="de-button wow fadeIn" data-wow-delay="1s">
-<a href="http://www.wingsever.com/" target="_blank"><i class="zm zm-shijian"></i>功能介绍</a>
-</div>
-</div>
-<div class="deanm deanmove">
-<div class="de-t wow fadeIn" data-wow-delay="0.5s"><a href="http://www.wingsever.com/xianyu-double_click-order.html" rel="bookmark">双击快速抢拍</a></div> <div class="clear"></div>
-<div class="de-a wow fadeIn" data-wow-delay="0.7s"></div>
-<div class="deanquan">
-<a href="http://www.wingsever.com/" target="_blank">
-<div class="de-back">
-<img src="lanting/ExDFTs.png" alt="双击快速抢拍"> <div class="de-b wow fadeIn" data-wow-delay="0.8s">多关键词</div>
-</div>
-</a>
-</div>
-<div class="de-c wow fadeIn" data-wow-delay="0.9s"></div>
-<div class="de-button wow fadeIn" data-wow-delay="1s">
-<a href="http://www.wingsever.com/" target="_blank"><i class="zm zm-paimaichui"></i>查看演示</a>
-</div>
-</div>
-<div class="deanm deanmove">
-<div class="de-t wow fadeIn" data-wow-delay="0.5s"><a href="http://www.wingsever.com/xianyu-auto-order.html" rel="bookmark">全自动下单</a></div> <div class="clear"></div>
-<div class="de-a wow fadeIn" data-wow-delay="0.7s"></div>
-<div class="deanquan">
-<a href="http://www.wingsever.com/" target="_blank">
-<div class="de-back">
-<img src="lanting/ExDEYq.png" alt="全自动下单"> <div class="de-b wow fadeIn" data-wow-delay="0.8s">自动抢拍</div>
-</div>
-</a>
-</div>
-<div class="de-c wow fadeIn" data-wow-delay="0.9s"></div>
-<div class="de-button wow fadeIn" data-wow-delay="1s">
-<a href="http://www.wingsever.com/" target="_blank"><i class="zm zm-canpai"></i>功能介绍</a>
-</div>
-</div>
-<div class="deanm deanmove">
-<div class="de-t wow fadeIn" data-wow-delay="0.5s"><a href="http://www.wingsever.com/xianyu-accounts.html" rel="bookmark">多账号支持</a></div> <div class="clear"></div>
-<div class="de-a wow fadeIn" data-wow-delay="0.7s"></div>
-<div class="deanquan">
-<a href="http://www.wingsever.com/" target="_blank">
-<div class="de-back">
-<img src="lanting/ExDiwj.png" alt="多账号支持"> <div class="de-b wow fadeIn" data-wow-delay="0.8s">微信通知</div>
-</div>
-</a>
-</div>
-<div class="de-c wow fadeIn" data-wow-delay="0.9s"></div>
-<div class="de-button wow fadeIn" data-wow-delay="1s">
-<a href="http://www.wingsever.com/" target="_blank"><i class="zm zm-tuijianhaowu"></i>查看演示</a>
-</div>
-</div>
-<div class="clear"></div>
-</div>
-</div>
-<div class="clear"></div>
-</div>
-</div></div>
-<div class="clear"></div>
+            <div class="g-row">
+                <div class="home-slider">
+                    <div id="slideshow">
+                        <script type="text/javascript">
+                            $(document).ready(function () {
+                                $("#slider-home").responsiveSlides({
+                                    auto: true,
+                                    pager: true,
+                                    nav: true,
+                                    speed: 800,
+                                    timeout: 5000,
+                                    pause: true,
+                                    // maxwidth: 3000,
+                                    namespace: "callbacks"
+                                });
+                            });
+                        </script>
+                        <ul class="rslides callbacks callbacks1" id="slider-home">
+                            <li id="callbacks1_s0" class=""
+                                style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 800ms ease-in-out 0s;">
+                                <img src="lanting/ExUxA0.png">
+                            </li>
+                            <li id="callbacks1_s1"
+                                style="float: left; position: relative; opacity: 1; z-index: 2; display: list-item; transition: opacity 800ms ease-in-out 0s;"
+                                class="callbacks1_on">
+                                <img src="lanting/ExaUC8.png">
+                            </li>
+                        </ul>
+                        <a href="http://www.wingsever.com/#" class="callbacks_nav callbacks1_nav prev"><i
+                                class="be be-arrowleft"></i></a><a href="http://www.wingsever.com/#"
+                                                                   class="callbacks_nav callbacks1_nav next"><i
+                            class="be be-arrowright"></i></a>
+                        <ul class="callbacks_tabs callbacks1_tabs">
+                            <li class="callbacks1_s1"><a href="http://www.wingsever.com/#" class="callbacks1_s1">1</a>
+                            </li>
+                            <li class="callbacks1_s2 callbacks_here"><a href="http://www.wingsever.com/#"
+                                                                        class="callbacks1_s2">2</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="group-section">
 
-</div>
-</div>
-<div class="clear"></div>
-<div id="footer-widget-box" class="site-footer">
-<div class="footer-widget">
-<aside id="php_text-6" class="widget php_text wow fadeInUp" data-wow-delay="0.3s"><h3 class="widget-title"><span class="s-icon"></span>软件说明</h3><div class="textwidget widget-text">软件为电脑端运行，设置好关键词、价格区间条件之后，有卖家上新商品，符合条件的，软件第一时间监控到，然后发出提醒，可以实时推送手机微信、钉钉，然后去下单即可。</div><div class="clear"></div></aside><aside id="php_text-4" class="widget php_text wow fadeInUp" data-wow-delay="0.3s"><div class="textwidget widget-text"><ul class="about-me-img clearfix">
-<li></li>
-<li>
-<img src="lanting/1560818853-qq2.jpg" title="QQ扫码加：1418169076 咨询、购买" alt="扫码加客服qq">
-<p>Q:1418169076</p>
-</li>
-<li></li>
-</ul>
-<style type="text/css">
-.about-me-img li {
-	float: left;
-	padding: 5px;
-	width: 33.333333333% !important;
-}
-.about-me-img p {
-	text-align: center;
-}
-</style></div><div class="clear"></div></aside><aside id="php_text-5" class="widget php_text wow fadeInUp" data-wow-delay="0.3s"><div class="textwidget widget-text"><ul class="logo-img clearfix">
-<li>
-<img src="lanting/Exc6OK.png">
-<p>兰亭,专业二手商品监控秒拍辅助工具。</p>
-</li>
-</ul>
-<style type="text/css">
-.logo-img li {
-	float: right;
-	padding: 5px;
-	width: 80% !important;
-}
-.about-me-img p {
-	text-align: center;
-}
-</style></div><div class="clear"></div></aside> <div class="clear"></div>
-</div>
-</div>
-<footer id="colophon" class="site-footer" role="contentinfo">
-<div class="site-info">
-Copyright © <a href="http://www.wingsever.com/">wingsever</a>&nbsp;闲鱼监控辅助工具 2018-2019 版权所有. <span class="add-info">
+                <div class="g-row  sort" name="1">
+                    <div class="g-col">
+                        <div class="deanm">
+                            <div class="group-title wow fadeInDown" data-wow-delay="0.3s">
+                                <h3><i class="be be-skyatlas"></i> 主要功能 <i class="be be-skyatlas"></i></h3>
+                                <div class="group-des">兰亭咸鱼、双击快速下单、多关键词同步监控。</div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="deanm-main wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="deanm deanmove">
+                                    <div class="de-t wow fadeIn" data-wow-delay="0.5s"><a
+                                            href="http://www.wingsever.com/xianyu-keywords-monitor.html" rel="bookmark">闲鱼关键词监控</a>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="de-a wow fadeIn" data-wow-delay="0.7s"></div>
+                                    <div class="deanquan">
+                                        <a href="http://www.wingsever.com/" target="_blank">
+                                            <div class="de-back">
+                                                <img src="lanting/ExDAkn.png" alt="闲鱼关键词监控">
+                                                <div class="de-b wow fadeIn" data-wow-delay="0.8s">秒级响应</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="de-c wow fadeIn" data-wow-delay="0.9s"></div>
+                                    <div class="de-button wow fadeIn" data-wow-delay="1s">
+                                        <a href="http://www.wingsever.com/" target="_blank"><i
+                                                class="zm zm-shijian"></i>功能介绍</a>
+                                    </div>
+                                </div>
+                                <div class="deanm deanmove">
+                                    <div class="de-t wow fadeIn" data-wow-delay="0.5s"><a
+                                            href="http://www.wingsever.com/xianyu-double_click-order.html"
+                                            rel="bookmark">双击快速抢拍</a></div>
+                                    <div class="clear"></div>
+                                    <div class="de-a wow fadeIn" data-wow-delay="0.7s"></div>
+                                    <div class="deanquan">
+                                        <a href="http://www.wingsever.com/" target="_blank">
+                                            <div class="de-back">
+                                                <img src="lanting/ExDFTs.png" alt="双击快速抢拍">
+                                                <div class="de-b wow fadeIn" data-wow-delay="0.8s">多关键词</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="de-c wow fadeIn" data-wow-delay="0.9s"></div>
+                                    <div class="de-button wow fadeIn" data-wow-delay="1s">
+                                        <a href="http://www.wingsever.com/" target="_blank"><i
+                                                class="zm zm-paimaichui"></i>查看演示</a>
+                                    </div>
+                                </div>
+                                <div class="deanm deanmove">
+                                    <div class="de-t wow fadeIn" data-wow-delay="0.5s"><a
+                                            href="http://www.wingsever.com/xianyu-auto-order.html"
+                                            rel="bookmark">全自动下单</a></div>
+                                    <div class="clear"></div>
+                                    <div class="de-a wow fadeIn" data-wow-delay="0.7s"></div>
+                                    <div class="deanquan">
+                                        <a href="http://www.wingsever.com/" target="_blank">
+                                            <div class="de-back">
+                                                <img src="lanting/ExDEYq.png" alt="全自动下单">
+                                                <div class="de-b wow fadeIn" data-wow-delay="0.8s">自动抢拍</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="de-c wow fadeIn" data-wow-delay="0.9s"></div>
+                                    <div class="de-button wow fadeIn" data-wow-delay="1s">
+                                        <a href="http://www.wingsever.com/" target="_blank"><i class="zm zm-canpai"></i>功能介绍</a>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="footer-widget-box" class="site-footer">
+        <div class="footer-widget">
+            <aside id="php_text-6" class="widget php_text wow fadeInUp" data-wow-delay="0.3s"><h3 class="widget-title">
+                <span class="s-icon"></span>软件说明</h3>
+                <div class="textwidget widget-text">
+                    软件为电脑端运行，设置好关键词、价格区间条件之后，有卖家上新商品，符合条件的，软件第一时间监控到，然后发出提醒，可以实时推送手机微信、钉钉，然后去下单即可。
+                </div>
+                <div class="clear"></div>
+            </aside>
+            <aside id="php_text-4" class="widget php_text wow fadeInUp" data-wow-delay="0.3s">
+                <div class="textwidget widget-text">
+                    <ul class="about-me-img clearfix">
+                        <li></li>
+                        <li>
+                            <img src="lanting/1560818853-qq2.jpg" title="QQ扫码加：1418169076 咨询、购买" alt="扫码加客服qq">
+                            <p>Q:1418169076</p>
+                        </li>
+                        <li></li>
+                    </ul>
+                    <style type="text/css">
+                        .about-me-img li {
+                            float: left;
+                            padding: 5px;
+                            width: 33.333333333% !important;
+                        }
+
+                        .about-me-img p {
+                            text-align: center;
+                        }
+                    </style>
+                </div>
+                <div class="clear"></div>
+            </aside>
+            <aside id="php_text-5" class="widget php_text wow fadeInUp" data-wow-delay="0.3s">
+                <div class="textwidget widget-text">
+                    <ul class="logo-img clearfix">
+                        <li>
+                            <img src="lanting/Exc6OK.png">
+                            <p>兰亭,专业二手商品监控秒拍辅助工具。</p>
+                        </li>
+                    </ul>
+                    <style type="text/css">
+                        .logo-img li {
+                            float: right;
+                            padding: 5px;
+                            width: 80% !important;
+                        }
+
+                        .about-me-img p {
+                            text-align: center;
+                        }
+                    </style>
+                </div>
+                <div class="clear"></div>
+            </aside>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <footer id="colophon" class="site-footer" role="contentinfo">
+        <div class="site-info">
+            Copyright © <a href="http://www.wingsever.com/">wingsever</a>&nbsp;闲鱼监控辅助工具 2018-2019 版权所有. <span
+                class="add-info">
 </span>
+        </div>
+    </footer>
+    <div id="login">
+        <div id="login-tab" class="login-tab-product">
+            <h2 class="login-tab-hd">
+                <span class="login-tab-hd-con login-current"><a href="javascript:">登录</a></span>
+                <span class="login-tab-hd-con"><a href="javascript:">找回密码</a></span></h2>
+            <div class="login-tab-bd login-dom-display">
+                <div class="login-tab-bd-con login-current">
+                    <div id="tab1_login" class="tab_content_login">
+                        <form method="post" action="http://www.wingsever.com/wp-login.php" class="wp-user-form">
+                            <div class="username">
+                                <label for="user_login">用户名</label>
+                                <input type="text" name="log" value="" size="20" id="user_login" tabindex="11">
+                            </div>
+                            <div class="password">
+                                <label for="user_pass">密码</label>
+                                <input type="password" name="pwd" value="" size="20" id="user_pass" tabindex="12">
+                            </div>
+                            <div class="login-form"></div>
+                            <div class="login_fields">
+                                <div class="rememberme">
+                                    <label for="rememberme">
+                                        <input type="checkbox" name="rememberme" value="forever" checked="checked"
+                                               id="rememberme" tabindex="13">记住我的登录信息 </label>
+                                </div>
+                                <input type="submit" name="user-submit" value="登录" tabindex="14" class="user-submit">
+                                <input type="hidden" name="redirect_to" value="/">
+                                <input type="hidden" name="user-cookie" value="1">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="login-tab-bd-con" style="display: none;">
+                    <div id="tab3_login" class="tab_content_login">
+                        <p class="message">输入用户名或电子邮箱地址，您会收到一封新密码链接的电子邮件。</p>
+                        <form method="post" action="http://www.wingsever.com/wp-login.php?action=lostpassword"
+                              class="wp-user-form">
+                            <div class="username">
+                                <label for="user_login" class="hide">用户名或电子邮件地址</label>
+                                <input type="text" name="user_login" value="" size="20" id="user_login" tabindex="1001">
+                            </div>
+                            <div class="login_fields">
+                                <div class="login-form"></div>
+                                <input type="submit" name="user-submit" value="获取新密码" class="user-submit"
+                                       tabindex="1002">
+                                <input type="hidden" name="redirect_to" value="/?reset=true">
+                                <input type="hidden" name="user-cookie" value="1">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul id="scroll">
+        <li class="log log-no"><a class="log-button" title="文章目录"><i class="be be-menu"></i></a>
+            <div class="log-prompt" style="display: none;">
+                <div class="log-arrow">文章目录</div>
+            </div>
+        </li>
+        <li><a class="scroll-h" title="返回顶部"><i class="be be-arrowup"></i></a></li>
+        <li><a class="scroll-b" title="转到底部"><i class="be be-arrowdown"></i></a></li>
+        <li class="gb2-site"><a id="gb2big5"><span>繁</span></a></li>
+        <li class="qqonline">
+            <div class="online"><a href="javascript:void(0)"><i class="be be-qq"></i></a></div>
+            <div class="qqonline-box qq-b">
+                <div class="qqonline-main">
+                    <div class="nline-wiexin">
+                        <h4>添加微信</h4>
+                        <img title="添加微信" alt="添加微信" src="lanting/1560818852-laomao.jpg">
+                    </div>
+                    <div class="nline-qq"><a target="_blank" rel="external nofollow"
+                                             href="https://wpa.qq.com/msgrd?v=3&amp;uin=1418169076&amp;site=qq&amp;menu=yes"><i
+                            class="be be-qq"></i>在线咨询</a></div>
+                </div>
+                <span class="qq-arrow"></span>
+            </div>
+        </li>
+    </ul>
 </div>
-</footer>
-<div id="login">
-<div id="login-tab" class="login-tab-product">
-<h2 class="login-tab-hd">
-<span class="login-tab-hd-con login-current"><a href="javascript:">登录</a></span>
-<span class="login-tab-hd-con"><a href="javascript:">找回密码</a></span> </h2>
-<div class="login-tab-bd login-dom-display">
-<div class="login-tab-bd-con login-current">
-<div id="tab1_login" class="tab_content_login">
-<form method="post" action="http://www.wingsever.com/wp-login.php" class="wp-user-form">
-<div class="username">
-<label for="user_login">用户名</label>
-<input type="text" name="log" value="" size="20" id="user_login" tabindex="11">
-</div>
-<div class="password">
-<label for="user_pass">密码</label>
-<input type="password" name="pwd" value="" size="20" id="user_pass" tabindex="12">
-</div>
-<div class="login-form"></div>
-<div class="login_fields">
-<div class="rememberme">
-<label for="rememberme">
-<input type="checkbox" name="rememberme" value="forever" checked="checked" id="rememberme" tabindex="13">记住我的登录信息 </label>
-</div>
-<input type="submit" name="user-submit" value="登录" tabindex="14" class="user-submit">
-<input type="hidden" name="redirect_to" value="/">
-<input type="hidden" name="user-cookie" value="1">
-</div>
-</form>
-</div>
-</div>
-<div class="login-tab-bd-con" style="display: none;">
-<div id="tab3_login" class="tab_content_login">
-<p class="message">输入用户名或电子邮箱地址，您会收到一封新密码链接的电子邮件。</p>
-<form method="post" action="http://www.wingsever.com/wp-login.php?action=lostpassword" class="wp-user-form">
-<div class="username">
-<label for="user_login" class="hide">用户名或电子邮件地址</label>
-<input type="text" name="user_login" value="" size="20" id="user_login" tabindex="1001">
-</div>
-<div class="login_fields">
-<div class="login-form"></div>
-<input type="submit" name="user-submit" value="获取新密码" class="user-submit" tabindex="1002">
-<input type="hidden" name="redirect_to" value="/?reset=true">
-<input type="hidden" name="user-cookie" value="1">
-</div>
-</form>
-</div>
-</div>
-</div>
-</div>
-</div><ul id="scroll">
-<li class="log log-no"><a class="log-button" title="文章目录"><i class="be be-menu"></i></a><div class="log-prompt" style="display: none;"><div class="log-arrow">文章目录</div></div></li>
-<li><a class="scroll-h" title="返回顶部"><i class="be be-arrowup"></i></a></li>
-<li><a class="scroll-b" title="转到底部"><i class="be be-arrowdown"></i></a></li>
-<li class="gb2-site"><a id="gb2big5"><span>繁</span></a></li> <li class="qqonline">
-<div class="online"><a href="javascript:void(0)"><i class="be be-qq"></i></a></div>
-<div class="qqonline-box qq-b">
-<div class="qqonline-main">
-<div class="nline-wiexin">
-<h4>添加微信</h4>
-<img title="添加微信" alt="添加微信" src="lanting/1560818852-laomao.jpg">
-</div>
-<div class="nline-qq"><a target="_blank" rel="external nofollow" href="https://wpa.qq.com/msgrd?v=3&amp;uin=1418169076&amp;site=qq&amp;menu=yes"><i class="be be-qq"></i>在线咨询</a></div>
-</div>
-<span class="qq-arrow"></span>
-</div>
-</li> </ul></div>
 <script type="text/javascript" src="lanting/slides.js"></script>
 <script type="text/javascript" src="lanting/sticky.js"></script>
 <script type="text/javascript" src="lanting/selectordie.js"></script>
@@ -519,9 +637,20 @@ Copyright © <a href="http://www.wingsever.com/">wingsever</a>&nbsp;闲鱼监控
 <script type="text/javascript" src="lanting/script.js"></script>
 <script type="text/javascript" src="lanting/flexisel.js"></script>
 <script type="text/javascript" src="lanting/wpzm.js"></script>
-<script type="text/javascript">var ias=$.ias({container:"#main",item:"article",pagination:"#nav-below",next:"#nav-below .nav-previous a",});ias.extension(new IASTriggerExtension({text:'<i class="be be-circledown"></i>更多',offset:3,}));ias.extension(new IASSpinnerExtension());ias.extension(new IASNoneLeftExtension({text:'已是最后',}));ias.on('rendered',function(items){$("img").lazyload({effect: "fadeIn",failure_limit: 70});})</script>
+<script type="text/javascript">var ias = $.ias({
+    container: "#main",
+    item: "article",
+    pagination: "#nav-below",
+    next: "#nav-below .nav-previous a",
+});
+ias.extension(new IASTriggerExtension({text: '<i class="be be-circledown"></i>更多', offset: 3,}));
+ias.extension(new IASSpinnerExtension());
+ias.extension(new IASNoneLeftExtension({text: '已是最后',}));
+ias.on('rendered', function (items) {
+    $("img").lazyload({effect: "fadeIn", failure_limit: 70});
+})</script>
 
 
-
-
-<div id="overlay"></div></body></html>
+<div id="overlay"></div>
+</body>
+</html>
