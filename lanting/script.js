@@ -83,11 +83,6 @@ EntityList.sort(function (a, b) {
 for (var i = 0; i < EntityList.length; i++) {
 	EntityList[i].JQ.appendTo(divTestJQ);
 };
-
-// 搜索
-$(".nav-search").click(function() {
-	$("#search-main").fadeToggle(300);
-});
 	
 //zack
 $(".off-search, .search-close, .off-search-a, .off-search-b").click(function(){
